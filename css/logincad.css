@@ -8,7 +8,7 @@
 }
 
 body{
-    background: linear-gradient(270deg, #ff7277, #740c0f, #ff030a, #a35b5d);
+    background: linear-gradient(270deg, #95ebff, #56a1f7, #3025ce, #6b00ff);
     background-size: 800% 800%;
 
     -webkit-animation: AnimationName 30s ease infinite;
@@ -29,6 +29,7 @@ body{
 @keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .login-page{
@@ -38,6 +39,7 @@ body{
 }
 
 .form{
+    margin: auto auto;
     text-align: center;
     background: white;
     padding: 50px;
@@ -47,6 +49,7 @@ body{
 }
 
 .form img{
+    margin: auto auto;
     width: 100%;
 }
 
@@ -84,7 +87,7 @@ body{
 
 .mensagem a{
     text-decoration: none;
-    color: #34BF3b
+    color: #fc0fc0;
 }
 
 #boton{
