@@ -73,6 +73,11 @@ body{
     color: Black;
 }
 
+.btn-s:hover{
+    transition: 1s;
+    background-color: #ffffff;
+    color: Black;
+}
 
 
 .btn-red{
